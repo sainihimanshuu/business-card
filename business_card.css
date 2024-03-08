@@ -1,0 +1,30 @@
+/*
+flexbox containers are by default display block
+
+inheritance in css
+>only a certain properties are inherites, and most are not inherited
+(google for more, some of then are color, font properties, text-align)
+
+*/
+
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar{
+    width: 150px;
+    height: 175px;
+}
+
+.card{
+    display: flex;
+    width: 400px;        /*Noobs do margins this way margin-right: auto*/
+    margin : 0 auto;   /*margin-left: auto;*/
+    background: #ddebf8;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center; 
+    color: #2b2839;
+    border-bottom: 5px solid #d8cefe;
+}
